@@ -26,6 +26,13 @@ public class DoorMechanic : MonoBehaviour
             activable = false;
         }
     }
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.tag == "Player")
+        {
+            activable = false;
+        }
+    }
 
     private void Update()
     {

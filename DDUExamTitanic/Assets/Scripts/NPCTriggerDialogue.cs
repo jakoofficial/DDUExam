@@ -11,10 +11,16 @@ public class NPCTriggerDialogue : MonoBehaviour
     {
         if (col.tag == "Player")
         {
-            //Debug.Log("starts convo");
             talkative = true;
         }
         else
+        {
+            talkative = false;
+        }
+    }
+    public void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.tag == "Player")
         {
             talkative = false;
         }
