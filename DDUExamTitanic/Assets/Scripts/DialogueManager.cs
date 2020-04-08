@@ -11,16 +11,19 @@ public class DialogueManager : MonoBehaviour
     public bool convoOngoing = false;
 
     private Queue<string> sentences;
+    private GameObject player;
 
     void Start()
     {
         sentences = new Queue<string>();
+        player = GameObject.FindWithTag("Player");
     }
 
     public void StartDialogue(Dialogue dialogue)
     {
         convoOngoing = true;
         anim.SetBool("IsOpen", true);
+        player.GetComponent<PlayerMovement>().moveable = false;
         sentences.Clear();
 
         foreach (string sentence in dialogue.sentences)
@@ -65,6 +68,7 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         anim.SetBool("IsOpen", false);
+        player.GetComponent<PlayerMovement>().moveable = true;
 
     }
 
