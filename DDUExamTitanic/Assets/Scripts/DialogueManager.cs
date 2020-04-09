@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
+    public Text name;
     public Text dialogueText;
     public Animator anim;
 
@@ -23,6 +24,7 @@ public class DialogueManager : MonoBehaviour
     {
         convoOngoing = true;
         anim.SetBool("IsOpen", true);
+        name.text = dialogue.name;
         player.GetComponent<PlayerMovement>().moveable = false;
         sentences.Clear();
 
