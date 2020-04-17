@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class SleepingScript : MonoBehaviour
 {
     public Animator blackScreen;
+    public string sceneName;
 
     private bool collision = false;
 
@@ -34,6 +35,6 @@ public class SleepingScript : MonoBehaviour
     IEnumerator changeScene()
     {
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("Jacob 1");
+        SceneManager.LoadScene(sceneName);
     }
 }
