@@ -6,9 +6,15 @@ using UnityEngine.SceneManagement;
 public class SleepingScript : MonoBehaviour
 {
     public Animator blackScreen;
+    private GameObject interactableKey;
     public string sceneName;
 
     private bool collision = false;
+
+    private void Start()
+    {
+        interactableKey = GameObject.FindWithTag("interactableKey");
+    }
 
     private void Update()
     {
@@ -23,6 +29,16 @@ public class SleepingScript : MonoBehaviour
         if (col.tag == "Player")
         {
             collision = true;
+            interactableKey.SetActive(true);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.tag == "Player")
+        {
+            collision = false;
+            interactableKey.SetActive(false);
         }
     }
 

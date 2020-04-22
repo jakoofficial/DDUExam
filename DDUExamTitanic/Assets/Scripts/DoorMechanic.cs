@@ -8,13 +8,15 @@ public class DoorMechanic : MonoBehaviour
     public Transform doorNext;
     private GameObject player;
     private GameObject blackScreen;
+    private GameObject interactableKey;
 
     private bool activable = false;
 
     private void Start()
     {
         player = GameObject.FindWithTag("Player");
-        blackScreen = GameObject.FindWithTag("BlackScreen"); 
+        blackScreen = GameObject.FindWithTag("BlackScreen");
+        interactableKey = GameObject.FindWithTag("interactableKey");
     }
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -22,6 +24,7 @@ public class DoorMechanic : MonoBehaviour
         if (col.tag == "Player")
         {
             activable = true;
+            interactableKey.SetActive(true);
         }
         else
         {
@@ -33,6 +36,7 @@ public class DoorMechanic : MonoBehaviour
         if (col.tag == "Player")
         {
             activable = false;
+            interactableKey.SetActive(false);
         }
     }
 
