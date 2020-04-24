@@ -11,35 +11,29 @@ public class PlayerMovement : MonoBehaviour
     public bool moveable = true;
     private bool isRight = true;
 
+    Vector2 movement;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
 
+    void Update()
+    {
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+
+        anim.SetFloat("Horizontal", movement.x);
+        anim.SetFloat("Vertical", movement.y);
+        anim.SetFloat("Speed", movement.sqrMagnitude);
+    }
+
     void FixedUpdate()
     {
         if (moveable)
         {
-            float hAxis = Input.GetAxis("Horizontal");
-            float vAxis = Input.GetAxis("Vertical");
-
-            if (hAxis > 0)
-            {
-                anim.SetBool("WalkingSides", true);
-                FlipX(false);
-            }
-            else if (hAxis < 0)
-            {
-                anim.SetBool("WalkingSides", true);
-                FlipX(true);
-            }
-            else if (hAxis == 0)
-            {
-                anim.SetBool("WalkingSides", false);
-            }
-
-            rb.velocity = new Vector2(hAxis * speed, vAxis * speed);
+            rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
         }
         else
         {
