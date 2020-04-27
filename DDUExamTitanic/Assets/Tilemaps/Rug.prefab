@@ -104,6 +104,15 @@ Tilemap:
       m_TileColorIndex: 1
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
+  - first: {x: 3, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 20
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 1
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: -4, y: -2, z: 0}
     second:
       serializedVersion: 2
@@ -263,6 +272,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: bf81f1ef28610d44fa057ae5d44b53b8, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: c4c11672a1012a94e8c551fc814d93be, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 3b37f1fde7dfd954d890d80f5b82b8b6, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
     m_Data: {fileID: -2642452111933221104, guid: a616f93b4c07e2940a9cc83c98c762f4,
@@ -321,8 +332,10 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -6871451905441783908, guid: a616f93b4c07e2940a9cc83c98c762f4,
       type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: 8df6fcceae369ce4e87ad386219cdda0, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 20
+  - m_RefCount: 21
     m_Data:
       e00: 1
       e01: 0
@@ -343,7 +356,7 @@ Tilemap:
   m_TileColorArray:
   - m_RefCount: 0
     m_Data: {r: 0, g: 0, b: 0, a: 0}
-  - m_RefCount: 20
+  - m_RefCount: 21
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - m_RefCount: 0
     m_Data: {r: 0, g: 0, b: 0, a: 0}
@@ -363,7 +376,7 @@ Tilemap:
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -4, y: -7, z: 0}
-  m_Size: {x: 7, y: 7, z: 1}
+  m_Size: {x: 8, y: 7, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -423,7 +436,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0.01111114, y: 0.5, z: 0}
+  m_ChunkCullingBounds: {x: 0.024999976, y: 0.54999995, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
