@@ -29,6 +29,33 @@ TextureImporter:
   - first:
       213: -6871451905441783908
     second: Carpet2ndClassCabins_8
+  - first:
+      213: 562732568603879747
+    second: Carpet2ndClassCabins_0
+  - first:
+      213: 5149898360383883969
+    second: Carpet2ndClassCabins_1
+  - first:
+      213: -8331135192772939112
+    second: Carpet2ndClassCabins_2
+  - first:
+      213: 5684422298718106188
+    second: Carpet2ndClassCabins_3
+  - first:
+      213: -8593891675703530824
+    second: Carpet2ndClassCabins_4
+  - first:
+      213: -7950783700020991690
+    second: Carpet2ndClassCabins_5
+  - first:
+      213: -333561562164284077
+    second: Carpet2ndClassCabins_6
+  - first:
+      213: 1573884775475909524
+    second: Carpet2ndClassCabins_7
+  - first:
+      213: 8311747744175104739
+    second: Carpet2ndClassCabins_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -72,7 +99,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 90
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -118,9 +145,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 60
-        width: 30
-        height: 30
+        y: 182
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +155,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0175d34fdcf145bd0800000000000000
-      internalID: -2642452111933221104
+      spriteID: 3496d272a4a3fc700800000000000000
+      internalID: 562732568603879747
       vertices: []
       indices: 
       edges: []
@@ -138,10 +165,10 @@ TextureImporter:
       name: Carpet2ndClassCabins_1
       rect:
         serializedVersion: 2
-        x: 30
-        y: 60
-        width: 30
-        height: 30
+        x: 90
+        y: 182
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,8 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e6147dfcfe575140800000000000000
-      internalID: 4708336376116156133
+      spriteID: 1ca4c00064d187740800000000000000
+      internalID: 5149898360383883969
       vertices: []
       indices: 
       edges: []
@@ -159,10 +186,10 @@ TextureImporter:
       name: Carpet2ndClassCabins_2
       rect:
         serializedVersion: 2
-        x: 60
-        y: 60
-        width: 30
-        height: 30
+        x: 180
+        y: 182
+        width: 92
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,8 +197,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5be023b6114e15fd0800000000000000
-      internalID: -2354850366674039115
+      spriteID: 8927303beacd16c80800000000000000
+      internalID: -8331135192772939112
       vertices: []
       indices: 
       edges: []
@@ -181,9 +208,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 30
-        width: 30
-        height: 30
+        y: 92
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,8 +218,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f969d53bf7b7e6c10800000000000000
-      internalID: 2048710668900472479
+      spriteID: c42f66c96ff13ee40800000000000000
+      internalID: 5684422298718106188
       vertices: []
       indices: 
       edges: []
@@ -201,10 +228,10 @@ TextureImporter:
       name: Carpet2ndClassCabins_4
       rect:
         serializedVersion: 2
-        x: 30
-        y: 30
-        width: 30
-        height: 30
+        x: 90
+        y: 92
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,8 +239,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51a2d0be2f231e0d0800000000000000
-      internalID: -3395376625153660395
+      spriteID: 8ba2187ad0d5cb880800000000000000
+      internalID: -8593891675703530824
       vertices: []
       indices: 
       edges: []
@@ -222,10 +249,10 @@ TextureImporter:
       name: Carpet2ndClassCabins_5
       rect:
         serializedVersion: 2
-        x: 60
-        y: 30
-        width: 30
-        height: 30
+        x: 180
+        y: 92
+        width: 92
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,8 +260,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c2a8952add528e50800000000000000
-      internalID: 6810108778052625092
+      spriteID: 6396842995429a190800000000000000
+      internalID: -7950783700020991690
       vertices: []
       indices: 
       edges: []
@@ -245,8 +272,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 30
-        height: 30
+        width: 90
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,8 +281,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23ee9c914012288e0800000000000000
-      internalID: -1692754208441635278
+      spriteID: 3553978c683fe5bf0800000000000000
+      internalID: -333561562164284077
       vertices: []
       indices: 
       edges: []
@@ -264,10 +291,10 @@ TextureImporter:
       name: Carpet2ndClassCabins_7
       rect:
         serializedVersion: 2
-        x: 30
+        x: 90
         y: 0
-        width: 30
-        height: 30
+        width: 90
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,8 +302,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffefde9160b54ae60800000000000000
-      internalID: 7972597322115579647
+      spriteID: 49313af4ddf87d510800000000000000
+      internalID: 1573884775475909524
       vertices: []
       indices: 
       edges: []
@@ -285,10 +312,10 @@ TextureImporter:
       name: Carpet2ndClassCabins_8
       rect:
         serializedVersion: 2
-        x: 60
+        x: 180
         y: 0
-        width: 30
-        height: 30
+        width: 92
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,8 +323,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9f16f406e2b3a0a0800000000000000
-      internalID: -6871451905441783908
+      spriteID: 3e2263a2982495370800000000000000
+      internalID: 8311747744175104739
       vertices: []
       indices: 
       edges: []
