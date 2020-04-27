@@ -3752,7 +3752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1274111691}
   m_Layer: 0
-  m_Name: Deck 1
+  m_Name: Deck 1 Bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11237,6 +11237,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2798599765276173761, guid: 45af8a2e5d658464d9ebb8aa29973c27,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b695fe6c5a18b54084c2d9184d37cde,
+        type: 3}
     - target: {fileID: 2798599765454062377, guid: 45af8a2e5d658464d9ebb8aa29973c27,
         type: 3}
       propertyPath: m_Name
@@ -11346,6 +11352,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798599765781353518, guid: 45af8a2e5d658464d9ebb8aa29973c27,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 7.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798599765781353518, guid: 45af8a2e5d658464d9ebb8aa29973c27,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798599766501663888, guid: 45af8a2e5d658464d9ebb8aa29973c27,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 7.1999855
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798599766501663888, guid: 45af8a2e5d658464d9ebb8aa29973c27,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 17.30001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45af8a2e5d658464d9ebb8aa29973c27, type: 3}
