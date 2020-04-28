@@ -9305,7 +9305,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnpointDoor6Room3Hallway2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1541122667804887058, guid: fcec2d7bc1cce70499786505adb52ed3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fcec2d7bc1cce70499786505adb52ed3, type: 3}
 --- !u!4 &1390462275 stripped
 Transform:
@@ -25885,6 +25886,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1857898476 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1541122667804887056, guid: fcec2d7bc1cce70499786505adb52ed3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1390462274}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1857898477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857898476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fe6926f83a7c34418122ca81d8400d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 1857898478}
+--- !u!114 &1857898478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857898476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 385efe40c72cd6c4295925b8195bbe9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "D\xF8ren er l\xE5st."
 --- !u!1001 &1916210228
 PrefabInstance:
   m_ObjectHideFlags: 0
