@@ -26,6 +26,72 @@ TextureImporter:
   - first:
       213: -5250202331379601055
     second: Railing_7
+  - first:
+      213: -2436074559794810896
+    second: Railing_0
+  - first:
+      213: 2341895568188604899
+    second: Railing_1
+  - first:
+      213: 517873829643127423
+    second: Railing_2
+  - first:
+      213: 2703347495780130788
+    second: Railing_3
+  - first:
+      213: 2169534727833692115
+    second: Railing_4
+  - first:
+      213: 7662516035583038476
+    second: Railing_5
+  - first:
+      213: 2568780708107585981
+    second: Railing_6
+  - first:
+      213: 8193444982234698966
+    second: Railing_7
+  - first:
+      213: -169954116895577601
+    second: Railing_8
+  - first:
+      213: 6481367751792533485
+    second: Railing_9
+  - first:
+      213: 8810008304758469705
+    second: Railing_10
+  - first:
+      213: -3721189170335112427
+    second: Railing_11
+  - first:
+      213: 7941552547049753883
+    second: Railing_12
+  - first:
+      213: 4177135407430275721
+    second: Railing_13
+  - first:
+      213: 3848425298210197931
+    second: Railing_14
+  - first:
+      213: -2015895548564177485
+    second: Railing_15
+  - first:
+      213: 6101736941236773416
+    second: Railing_16
+  - first:
+      213: 8507711395586781979
+    second: Railing_17
+  - first:
+      213: -8177357283160510032
+    second: Railing_18
+  - first:
+      213: -2078801724064395869
+    second: Railing_19
+  - first:
+      213: -32534830870180136
+    second: Railing_20
+  - first:
+      213: 2897999912992402790
+    second: Railing_21
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -69,7 +135,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
