@@ -682,6 +682,102 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &141309999
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583417881}
+    m_Modifications:
+    - target: {fileID: 3359014978077083137, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1a5a6675f84152c41bee37b40816969f,
+        type: 3}
+    - target: {fileID: 3359014978077083139, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_Name
+      value: Npc_Jenny
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 281.9541
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Jenny
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Wow, se alt det vand.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: Er det ikke bare smukt?
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5ed04f28484f22c49bb5d214b6ee3c86, type: 3}
+--- !u!4 &141310000 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+    type: 3}
+  m_PrefabInstance: {fileID: 141309999}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &142025337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1282,6 +1378,112 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &210748868
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 848728775}
+    m_Modifications:
+    - target: {fileID: 3359014978077083137, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 866213b138d7db74cb4753b946eae449,
+        type: 3}
+    - target: {fileID: 3359014978077083139, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_Name
+      value: Npc_Bentley
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.8255835
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 706.38104
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Bentley
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: "Det her skib er s\xE5 stort."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: "269 meter i l\xE6ngden og 53 meter i h\xF8jden."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: Jeg tror jeg ender med at fare vild.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5ed04f28484f22c49bb5d214b6ee3c86, type: 3}
+--- !u!4 &210748869 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+    type: 3}
+  m_PrefabInstance: {fileID: 210748868}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &222771873
 GameObject:
   m_ObjectHideFlags: 0
@@ -3942,6 +4144,37 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2035834166}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &848728774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 848728775}
+  m_Layer: 0
+  m_Name: NPCS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &848728775
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848728774}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 210748869}
+  m_Father: {fileID: 1199228778}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &856807075 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 856807075, guid: 45af8a2e5d658464d9ebb8aa29973c27,
@@ -4688,6 +4921,41 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 976453843}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &983057500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2523958742296432369, guid: 7bd65e34bac8be54e853fc809940e8d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1487739473}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &983057501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983057500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 385efe40c72cd6c4295925b8195bbe9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "D\xF8ren er l\xE5st."
+--- !u!114 &983057502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983057500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fe6926f83a7c34418122ca81d8400d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 983057501}
 --- !u!4 &992338206 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 514083425, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
@@ -5395,6 +5663,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcec2d7bc1cce70499786505adb52ed3, type: 3}
+--- !u!1 &1186229712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1541122667804887056, guid: fcec2d7bc1cce70499786505adb52ed3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1526519528}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1186229713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186229712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 385efe40c72cd6c4295925b8195bbe9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Der er et skildt p\xE5 d\xF8ren."
+    - Spisesalen er lige nu lukket, kom tilbage senere.
+--- !u!114 &1186229714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186229712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fe6926f83a7c34418122ca81d8400d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 1186229713}
 --- !u!1 &1199228777
 GameObject:
   m_ObjectHideFlags: 0
@@ -5439,6 +5743,7 @@ Transform:
   - {fileID: 123323914}
   - {fileID: 6497019385259469394}
   - {fileID: 1230809221}
+  - {fileID: 848728775}
   m_Father: {fileID: 621706920}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6383,6 +6688,107 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1350774658}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1375652096
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583417881}
+    m_Modifications:
+    - target: {fileID: 3359014978077083137, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ecea3b4550018d84899e1b9823d3ebb5,
+        type: 3}
+    - target: {fileID: 3359014978077083139, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_Name
+      value: Npc_Clifford
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 18.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 281.9541
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Clifford
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Vidste du at dette skib kostede $7.5 millioner at bygge?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: Er det ikke bare smukt?
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5ed04f28484f22c49bb5d214b6ee3c86, type: 3}
+--- !u!4 &1375652097 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+    type: 3}
+  m_PrefabInstance: {fileID: 1375652096}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1390462274
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6623,7 +7029,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnpointDoor3Hallway1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2523958742296432371, guid: 7bd65e34bac8be54e853fc809940e8d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7bd65e34bac8be54e853fc809940e8d6, type: 3}
 --- !u!4 &1487739474 stripped
 Transform:
@@ -6747,7 +7154,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnpointDoorDinningHallway
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1541122667804887058, guid: fcec2d7bc1cce70499786505adb52ed3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fcec2d7bc1cce70499786505adb52ed3, type: 3}
 --- !u!4 &1526519529 stripped
 Transform:
@@ -6905,6 +7313,7 @@ Transform:
   - {fileID: 803722071}
   - {fileID: 565771093}
   - {fileID: 141128969}
+  - {fileID: 1583417881}
   m_Father: {fileID: 1274111691}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7007,6 +7416,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad186aebc37bee84f96e3ba02db873fd, type: 3}
+--- !u!1 &1583417880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1583417881}
+  m_Layer: 0
+  m_Name: NPCS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1583417881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583417880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 141310000}
+  - {fileID: 1375652097}
+  - {fileID: 1689481098}
+  m_Father: {fileID: 1566003830}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1585251278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7306,6 +7748,107 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 2798599765276173767, guid: 45af8a2e5d658464d9ebb8aa29973c27,
     type: 3}
   m_PrefabInstance: {fileID: 2798599765746426363}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1689481097
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1583417881}
+    m_Modifications:
+    - target: {fileID: 3359014978077083137, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 985a1dee4d432ee418072b5126312c11,
+        type: 3}
+    - target: {fileID: 3359014978077083139, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_Name
+      value: Npc_Jenny (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 20.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 281.9541
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Clifford
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: "Min mand sagde at jeg var lige s\xE5 tung som skibet!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: Skibet vejer 52 tons!
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5ed04f28484f22c49bb5d214b6ee3c86, type: 3}
+--- !u!4 &1689481098 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+    type: 3}
+  m_PrefabInstance: {fileID: 1689481097}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1699441042
 GameObject:
@@ -22959,6 +23502,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1489143309}
     m_Modifications:
+    - target: {fileID: 3359014978077083137, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7df67a6787481c842b754972552cc7ff,
+        type: 3}
+    - target: {fileID: 3359014978077083137, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3359014978077083139, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
         type: 3}
       propertyPath: m_Name
@@ -23916,6 +24470,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StaircaseDownHallway1
       objectReference: {fileID: 0}
+    - target: {fileID: 9217376307003969218, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9217376307003969219, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23980,6 +24539,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1935837722}
     m_Modifications:
+    - target: {fileID: 3359014978077083137, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ecea3b4550018d84899e1b9823d3ebb5,
+        type: 3}
     - target: {fileID: 3359014978077083139, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
         type: 3}
       propertyPath: m_Name
@@ -24371,6 +24936,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 897792172}
     m_Modifications:
+    - target: {fileID: 3359014978077083137, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1a5a6675f84152c41bee37b40816969f,
+        type: 3}
     - target: {fileID: 3359014978077083139, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
         type: 3}
       propertyPath: m_Name
@@ -24389,7 +24960,7 @@ PrefabInstance:
     - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
         type: 3}
