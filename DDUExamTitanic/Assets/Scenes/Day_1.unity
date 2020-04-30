@@ -5064,6 +5064,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1079065982 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4035450442488983952, guid: 3ce96aed197714f4c851048b3ccf639f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4035450441226050409}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1079065987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079065982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 385efe40c72cd6c4295925b8195bbe9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - Jeg skal ikke sove nu
+--- !u!114 &1079065988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079065982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fe6926f83a7c34418122ca81d8400d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 1079065987}
 --- !u!1 &1086853272
 GameObject:
   m_ObjectHideFlags: 0
@@ -25864,6 +25899,11 @@ PrefabInstance:
         type: 3}
       propertyPath: blackScreen
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035450442488983956, guid: 3ce96aed197714f4c851048b3ccf639f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4035450442488983957, guid: 3ce96aed197714f4c851048b3ccf639f,
         type: 3}
