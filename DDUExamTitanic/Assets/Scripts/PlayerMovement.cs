@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (moveable)
         {
-            rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+            rb.MovePosition(rb.position + movement.normalized * speed * Time.fixedDeltaTime);
         }
         else
         {
