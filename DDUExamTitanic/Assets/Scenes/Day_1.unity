@@ -367,12 +367,12 @@ PrefabInstance:
     - target: {fileID: 7165260125416845734, guid: 8dd33848d01c78645b773422ea2857d7,
         type: 3}
       propertyPath: m_Name
-      value: SignHallway2
+      value: Sign2Hallway1
       objectReference: {fileID: 0}
     - target: {fileID: 7165260125416845736, guid: 8dd33848d01c78645b773422ea2857d7,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "\u2190 V\xE6relse 5 | Ryge rum \u2192"
+      value: "\u2190 V\xE6relse 5  |  Ryge rum \u2192"
       objectReference: {fileID: 0}
     - target: {fileID: 7165260125416845739, guid: 8dd33848d01c78645b773422ea2857d7,
         type: 3}
@@ -2557,7 +2557,7 @@ PrefabInstance:
     - target: {fileID: 3221882130251602325, guid: a00f5401d785d1540adfe493e5954529,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "\u2190 V\xE6relse 2 | V\xE6relse 3 \u2192"
+      value: "\u2190 V\xE6relse 2  |  V\xE6relse 3 \u2192"
       objectReference: {fileID: 0}
     - target: {fileID: 3221882130251602331, guid: a00f5401d785d1540adfe493e5954529,
         type: 3}
@@ -5396,7 +5396,7 @@ PrefabInstance:
     - target: {fileID: 3221882130251602325, guid: a00f5401d785d1540adfe493e5954529,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "\u2190 V\xE6relse 7 | Spisesal \u2192"
+      value: "\u2190 V\xE6relse 7  |  Spisesal \u2192"
       objectReference: {fileID: 0}
     - target: {fileID: 3221882130251602327, guid: a00f5401d785d1540adfe493e5954529,
         type: 3}
@@ -5406,7 +5406,7 @@ PrefabInstance:
     - target: {fileID: 3221882130251602331, guid: a00f5401d785d1540adfe493e5954529,
         type: 3}
       propertyPath: m_Name
-      value: SignHallway3 (1)
+      value: Sign4Hallway1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a00f5401d785d1540adfe493e5954529, type: 3}
@@ -24504,7 +24504,7 @@ PrefabInstance:
     - target: {fileID: 3221882130251602325, guid: a00f5401d785d1540adfe493e5954529,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "\u2190 V\xE6relse 1 | V\xE6relse 2 \u2192"
+      value: "\u2190 V\xE6relse 1  |  V\xE6relse 2 \u2192"
       objectReference: {fileID: 0}
     - target: {fileID: 3221882130251602331, guid: a00f5401d785d1540adfe493e5954529,
         type: 3}
@@ -24682,6 +24682,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
         type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
       propertyPath: dialogue.name
       value: Alfred
       objectReference: {fileID: 0}
@@ -24693,7 +24698,17 @@ PrefabInstance:
     - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: Mener det var i min venstre lomme.
+      value: Mener den var i min venstre lomme.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: argh der var den.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359014978077083151, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ed04f28484f22c49bb5d214b6ee3c86, type: 3}
@@ -60048,7 +60063,7 @@ PrefabInstance:
     - target: {fileID: 7165260125416845734, guid: 8dd33848d01c78645b773422ea2857d7,
         type: 3}
       propertyPath: m_Name
-      value: SignHallway1
+      value: Sign1Hallway1
       objectReference: {fileID: 0}
     - target: {fileID: 7165260125416845736, guid: 8dd33848d01c78645b773422ea2857d7,
         type: 3}
@@ -60058,7 +60073,7 @@ PrefabInstance:
     - target: {fileID: 7165260125416845736, guid: 8dd33848d01c78645b773422ea2857d7,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "\u2190 V\xE6relse 4 | V\xE6relse 5 \u2192"
+      value: "\u2190 V\xE6relse 4  |  V\xE6relse 5 \u2192"
       objectReference: {fileID: 0}
     - target: {fileID: 7165260125416845736, guid: 8dd33848d01c78645b773422ea2857d7,
         type: 3}
@@ -60291,12 +60306,12 @@ PrefabInstance:
     - target: {fileID: 3221882130251602325, guid: a00f5401d785d1540adfe493e5954529,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "\u2190 V\xE6relse 6 | V\xE6relse 7 \u2192"
+      value: "\u2190 V\xE6relse 6  |  V\xE6relse 7 \u2192"
       objectReference: {fileID: 0}
     - target: {fileID: 3221882130251602331, guid: a00f5401d785d1540adfe493e5954529,
         type: 3}
       propertyPath: m_Name
-      value: SignHallway3
+      value: Sign3Hallway1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a00f5401d785d1540adfe493e5954529, type: 3}
