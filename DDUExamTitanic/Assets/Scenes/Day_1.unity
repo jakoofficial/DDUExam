@@ -5111,12 +5111,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 983057501}
---- !u!4 &992338206 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 514083425, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-    type: 3}
-  m_PrefabInstance: {fileID: 1337012325}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1007522627 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1541122668307478595, guid: fcec2d7bc1cce70499786505adb52ed3,
@@ -5928,7 +5922,7 @@ Transform:
   - {fileID: 112434113}
   - {fileID: 1526519529}
   - {fileID: 824594504}
-  - {fileID: 1337012326}
+  - {fileID: 9217376305788747430}
   - {fileID: 909350904}
   - {fileID: 123323914}
   - {fileID: 6497019385259469394}
@@ -6701,86 +6695,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1056312122}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1337012325
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1199228778}
-    m_Modifications:
-    - target: {fileID: 9217376307003969217, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: doorNext
-      value: 
-      objectReference: {fileID: 2119363341}
-    - target: {fileID: 9217376307003969218, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_Name
-      value: StaircaseUpHallway1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9217376307003969219, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -10.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 9217376307003969219, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 6.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9217376307003969219, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 707.7246
-      objectReference: {fileID: 0}
-    - target: {fileID: 9217376307003969219, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9217376307003969219, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9217376307003969219, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9217376307003969219, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9217376307003969219, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 9217376307003969219, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9217376307003969219, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9217376307003969219, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6cd5384dace3f5d46ab4b72dba4fefcd, type: 3}
---- !u!4 &1337012326 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9217376307003969219, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-    type: 3}
-  m_PrefabInstance: {fileID: 1337012325}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1350774658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6882,6 +6796,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3359014978077083150, guid: 5ed04f28484f22c49bb5d214b6ee3c86,
     type: 3}
   m_PrefabInstance: {fileID: 1350774658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1360361988 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3245790589273913851, guid: 55735a8d6ea6a98448843b92d258e9fa,
+    type: 3}
+  m_PrefabInstance: {fileID: 3245790590095279103}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1375652096
 PrefabInstance:
@@ -25282,45 +25202,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622389377}
     m_Modifications:
-    - target: {fileID: 514083424, guid: 6cd5384dace3f5d46ab4b72dba4fefcd, type: 3}
-      propertyPath: m_Name
-      value: StaircaseBridgeSpawnpointDown
-      objectReference: {fileID: 0}
-    - target: {fileID: 514083425, guid: 6cd5384dace3f5d46ab4b72dba4fefcd, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 7448192068251228885, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7448192068251228885, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7448192068251228885, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7448192068251228885, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.97
-      objectReference: {fileID: 0}
-    - target: {fileID: 9217376307003969216, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 652b9ac086f625d45805f025e9b029bd,
-        type: 3}
     - target: {fileID: 9217376307003969217, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
         type: 3}
       propertyPath: doorNext
       value: 
-      objectReference: {fileID: 992338206}
+      objectReference: {fileID: 1360361988}
     - target: {fileID: 9217376307003969218, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
         type: 3}
       propertyPath: m_Name
@@ -25380,11 +25266,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9217376307003969278, guid: 6cd5384dace3f5d46ab4b72dba4fefcd,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.97
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cd5384dace3f5d46ab4b72dba4fefcd, type: 3}
@@ -25985,6 +25866,80 @@ PrefabInstance:
       objectReference: {fileID: 2798599765746426367}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0cdab017373d0644b7a2d2cc67a04b6, type: 3}
+--- !u!1001 &3245790590095279103
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1199228778}
+    m_Modifications:
+    - target: {fileID: 5972318130033966424, guid: 55735a8d6ea6a98448843b92d258e9fa,
+        type: 3}
+      propertyPath: m_Name
+      value: StaircaseUpHallway1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972318130033966425, guid: 55735a8d6ea6a98448843b92d258e9fa,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972318130033966425, guid: 55735a8d6ea6a98448843b92d258e9fa,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972318130033966425, guid: 55735a8d6ea6a98448843b92d258e9fa,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 707.7246
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972318130033966425, guid: 55735a8d6ea6a98448843b92d258e9fa,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972318130033966425, guid: 55735a8d6ea6a98448843b92d258e9fa,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972318130033966425, guid: 55735a8d6ea6a98448843b92d258e9fa,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972318130033966425, guid: 55735a8d6ea6a98448843b92d258e9fa,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972318130033966425, guid: 55735a8d6ea6a98448843b92d258e9fa,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972318130033966425, guid: 55735a8d6ea6a98448843b92d258e9fa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972318130033966425, guid: 55735a8d6ea6a98448843b92d258e9fa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972318130033966425, guid: 55735a8d6ea6a98448843b92d258e9fa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972318130033966427, guid: 55735a8d6ea6a98448843b92d258e9fa,
+        type: 3}
+      propertyPath: doorNext
+      value: 
+      objectReference: {fileID: 2119363341}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55735a8d6ea6a98448843b92d258e9fa, type: 3}
 --- !u!1001 &3359014976663556166
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60583,3 +60538,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e662385aad8fff04fa19fbb6cb592c7d, type: 3}
+--- !u!4 &9217376305788747430 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5972318130033966425, guid: 55735a8d6ea6a98448843b92d258e9fa,
+    type: 3}
+  m_PrefabInstance: {fileID: 3245790590095279103}
+  m_PrefabAsset: {fileID: 0}
