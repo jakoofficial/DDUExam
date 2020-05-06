@@ -18,6 +18,7 @@ public class SceneStart : MonoBehaviour
         newDayTitle.text = newDayTitleString.ToString();
         blackscreenNewDay.SetBool("newDay", true);
         invAnim.SetBool("newDayInv", true);
+
         StartCoroutine(newDay());
     }
 
