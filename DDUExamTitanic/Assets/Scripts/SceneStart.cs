@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class SceneStart : MonoBehaviour
 {
     public Animator blackscreenNewDay;
+    public Animator invAnim;
     public Text newDayText;
     public Text newDayTitle;
     public string newDayString;
@@ -16,6 +17,7 @@ public class SceneStart : MonoBehaviour
         newDayText.text = newDayString.ToString();
         newDayTitle.text = newDayTitleString.ToString();
         blackscreenNewDay.SetBool("newDay", true);
+        invAnim.SetBool("newDayInv", true);
         StartCoroutine(newDay());
     }
 
@@ -23,5 +25,7 @@ public class SceneStart : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         blackscreenNewDay.SetBool("newDay", false);
+        invAnim.SetBool("newDayInv", false);
+
     }
 }
